@@ -5,7 +5,7 @@ metadata:
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: hardik.patel@techifysolutions.com
+    email: patelsaheb29@gmail.com
     privateKeySecretRef:
       name: letsencrypt-production
     solvers:
