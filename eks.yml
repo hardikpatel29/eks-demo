@@ -9,6 +9,7 @@ nodeGroups:
   - name: myNodeGroup-1
     instanceType: t2.small
     desiredCapacity: 3
+    amiFamily: Ubuntu2004 #node is ubuntu based
     ssh: # use existing EC2 key
       publicKeyName: eksdemo
 
